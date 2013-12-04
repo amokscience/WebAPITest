@@ -161,7 +161,7 @@
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Core\ConfigurationConstants.cs" />
     <Compile Include="Core\DatabaseManager.cs" />
-    <Compile Include="Core\IConfigurationConstants.cs" />
+    <Compile Include="Core\SanityTest.cs" />
     <Compile Include="Core\SimpleInjectorWebApiDependencyResolver.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

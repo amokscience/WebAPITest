@@ -9,9 +9,9 @@ namespace WebAPITest.Core
     {
         public static SqlConnection GetOpenConnection()
         {
-            var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["sql2013"].ConnectionString);
-            //var connection2 = new OrmLiteConnection(new OrmLiteConnectionFactory(), 
             //var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["sql2013"].ConnectionString);
+            //var connection2 = new OrmLiteConnection(new OrmLiteConnectionFactory(), 
+            var connection = new SqlConnection(ConfigurationConstants.DatabaseConnectionString);
             connection.Open();
             return connection;
         }

@@ -4,10 +4,12 @@ using System.Configuration;
 
 namespace WebAPITest.Core
 {
-    public class ConfigurationConstants : IConfigurationConstants
+    public class ConfigurationConstants
     {
-        public string DatabaseConnectionString {
-            get { return ConfigurationManager.ConnectionStrings["sql2013"].ConnectionString; } }
+        public static string DatabaseConnectionString
+        {
+            get { return ConfigurationManager.ConnectionStrings["sql2013"].ConnectionString; }
+        }
     }
 }
 

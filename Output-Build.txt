@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: Tests, Configuration: Debug Any CPU ------
+1>  Tests -> C:\GitHub\WebAPITest\Tests\bin\Tests.dll
+========== Build: 1 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========

@@ -9,11 +9,11 @@ namespace Unit.Tests
     {
         // Force a failure for build testing purposes only
         // Leave commented out normally
-        //[TestMethod]
-        //public void GenerateFailure()
-        //{
-        //    Assert.AreEqual(true, false);
-        //}
+        [TestMethod]
+        public void GenerateFailure()
+        {
+            Assert.AreEqual(true, false);
+        }
 
         [TestMethod]
         public void TestMethodWorking()

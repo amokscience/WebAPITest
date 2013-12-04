@@ -18,8 +18,15 @@ namespace Tests.Controllers
         {
             var controller = new ProductController(new ProductRepository());
             var result = controller.Get();
-            System.Diagnostics.Debug.WriteLine(result.Count());
             Assert.IsTrue(result.Count() > 0);
+        }
+
+        [TestMethod]
+        public void AllProduct()
+        {
+            var controller = new ProductController(new ProductRepository());
+            var result = controller.Get(1);
+            Assert.IsTrue(result != null);
         }
     }
 }

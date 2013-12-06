@@ -8,12 +8,12 @@ namespace Unit.Tests
     public class UnitTest1
     {
         // Force a failure for build testing purposes only
-        // Leave commented out normally
-        //[TestMethod]
-        //public void GenerateFailure()
-        //{
-        //    Assert.AreEqual(true, false);
-        //}
+        [TestMethod]
+        [Ignore]
+        public void GenerateFailure()
+        {
+            Assert.AreEqual(true, false);
+        }
 
         [TestMethod]
         public void TestMethodWorking()

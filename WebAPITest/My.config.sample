@@ -1,0 +1,3 @@
+  <connectionStrings>
+    <add name="sql2013" connectionString="Data Source=127.0.0.1,1433;Network Library=DBMSSOCN;Initial Catalog=Snacks;User ID=root;Password=Kybtzz7;" />
+  </connectionStrings>

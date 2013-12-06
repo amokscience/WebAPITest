@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPITest", "WebAPITest\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPITest.Tests", "WebAPITest.Tests\WebAPITest.Tests.csproj", "{0F5A1B22-C1F2-431D-957B-6A3DBBD05DA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{ADD6DA87-B969-4FFC-A205-322BA63A3018}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit.Tests", "Tests\Unit.Tests.csproj", "{ADD6DA87-B969-4FFC-A205-322BA63A3018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

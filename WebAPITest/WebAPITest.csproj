@@ -180,6 +180,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\SnackUserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Core\ConfigurationConstants.cs" />
     <Compile Include="Core\DatabaseManager.cs" />

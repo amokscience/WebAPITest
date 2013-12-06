@@ -3,7 +3,7 @@
   <Role name="WebAPITest">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=portalvhdsf6j9j4v4fs9n6;AccountKey=znHReSa4oHKbn1gGfxx1Rj3qWF64AJ5bmXUhXbPCw/lPrwSqLma5+AOMgpRAb7vMWV6dUF9nKj3sSIIknyU0SA==" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="amokscience" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBjQYJKoZIhvcNAQcDoIIBfjCCAXoCAQAxggE+MIIBOgIBADAiMA4xDDAKBgNVBAMTA0tlbgIQQvj5gjVla71OO+TKDWE/WzANBgkqhkiG9w0BAQEFAASCAQBJ2yENVUPNyBOaDNrwlU9ZcdQMGPjbQdLgApPE3OyV4E4Cz1VuL05LQ4KtKZ30FXcS/Va7xPL/68RwXPek+Kfs0tdU0bdY1eMumkv02K+7bbZrWup+tjyvodM86CAqPLtEOS5xMz/GFyt0iP5xz2YiLKUfTf42CYjwI8V6aKoc4eNjEMM6ffA5r86CxfYXZiR8AC1yUSj3cvxDXWQZkHg151A5sjGJ7GWibBi+012zEEWuBpk24kDiyS4nVg04+D8zUTbJnK3BWVXUiEWtjocjiQHwtexUyypTdu4UITmWjUlVRnJMBdx3emJm0MDIhJsH4q0DU8tGAkUnWpnrDgrIMDMGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQI+ii7h6bF1s+AEI6coUnksV3GHfp5rSerEvw=" />
